@@ -41,7 +41,7 @@
             <td><input type="reset" value="Cancel" style="color: #005cbf; background: white; border-color: #005cbf"></td>
         </tr>
     </table>
-    <a href="/userList">User List</a>
+    <a href="usersList">User List</a>
 </form>
 </body>
 </html>
