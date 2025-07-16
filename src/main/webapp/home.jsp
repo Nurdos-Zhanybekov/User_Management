@@ -29,12 +29,12 @@
         </tr>
         <tr>
             <td>Date of Birth</td>
-            <td><input type="date" id="birthday" name="userBirth"></td>
+            <td><input type="date" id="birthday" name="birthDate"></td>
         </tr>
         <tr>
             <td>Gender</td>
-            <td><input type="radio" id="male" name="gender" value="male">Male</td>
-            <td><input type="radio" id="female" name="gender" value="female">Female</td>
+            <td><input type="radio" id="male" name="userGender" value="male">Male</td>
+            <td><input type="radio" id="female" name="userGender" value="female">Female</td>
         </tr>
         <tr>
             <td><input type="submit" value="Register" style="color: #005cbf; background: white; border-color: #005cbf"></td>
