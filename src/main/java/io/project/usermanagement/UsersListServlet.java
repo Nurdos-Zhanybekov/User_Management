@@ -43,7 +43,7 @@ public class UsersListServlet extends HttpServlet {
                 printWriter.println("<td>" + rs.getString("gender") + "</td>");
                 printWriter.println("<td>" + rs.getString("birth_date") + "</td>");
                 printWriter.println("<td><a href='editScreen?id=" + rs.getInt("id") + "'>Edit</a></td>");
-                printWriter.println("<td><a href='deleteurl?id=" + rs.getInt("id") + "'>Delete</a></td>");
+                printWriter.println("<td><a href='deleteUser?id=" + rs.getInt("id") + "'>Delete</a></td>");
                 printWriter.println("</tr>");
             }
 
